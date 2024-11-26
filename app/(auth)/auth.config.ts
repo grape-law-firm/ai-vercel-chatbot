@@ -1,4 +1,4 @@
-import MicrosoftEntraID from "@auth/core/providers/microsoft-entra-id";
+import MicrosoftEntraID from "next-auth/providers/microsoft-entra-id";
 import { getUserDetails } from "./services/msGraphApi";
 import type { NextAuthConfig, User, Session } from "next-auth";
 import { createUser, getUser, isUserExists } from "@/lib/db/queries";
