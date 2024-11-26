@@ -16,7 +16,6 @@ import { fetcher } from '@/lib/utils';
 import { Block, type UIBlock } from './block';
 import { BlockStreamHandler } from './block-stream-handler';
 import { MultimodalInput } from './multimodal-input';
-import { Overview } from './overview';
 
 export function Chat({
   id,
